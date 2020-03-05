@@ -9,7 +9,7 @@ find a Debian or Ubuntu box with root on a clean public IP and run:
 	  && curl -fsSL https://get.docker.com/ | sh || apt-get -y install docker.io\
 	  && mkdir -p ~/netflix-proxy\
 	  && cd ~/netflix-proxy\
-	  && curl -fsSL https://github.com/ab77/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
+	  && curl -fsSL https://github.com/chengziqaq/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
 	  && ./build.sh
 
 See the [**Wiki**](https://github.com/ab77/netflix-proxy/wiki) page(s) for some common troubleshooting ideas.
